@@ -11,7 +11,7 @@ public class Main extends JFrame {
         Sun sun = new Sun(dr.getBACKGROUND_WIDTH() / 2 + 310, dr.getBACKGROUND_HEIGHT() / 2 - 280, 100, 100);
         Beach beach = new Beach(0, dr.getBACKGROUND_HEIGHT() / 2 + 100, dr.getBACKGROUND_WIDTH(), dr.getBACKGROUND_HEIGHT() / 2);
         PalmTree palmTree1 = new PalmTree(100, 350, 20, 200);
-        PalmTree palmTree2 = new PalmTree(100, dr.getBACKGROUND_HEIGHT() / 2 + 50, 20, 200);
+        PalmTree palmTree2 = new PalmTree(250, dr.getBACKGROUND_HEIGHT() / 2 + 50, 20, 200);
         PalmTree palmTree3 = new PalmTree(550, dr.getBACKGROUND_HEIGHT() / 2 + 60, 20, 200);
         dr.addObj(sky);
         dr.addObj(ocean);
